@@ -5,6 +5,10 @@ import os
 token = os.getenv("API_TOKEN")
 print(f'Token : {token}')
 
+if token=="1234ABCD":
+    print("get the token")
+else:
+    print("incorrect token")
 
 # # Extract: Read data from a public API
 # response = requests.get("https://jsonplaceholder.typicode.com/users")
