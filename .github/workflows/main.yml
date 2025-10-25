@@ -22,4 +22,6 @@ jobs:
               run: pip install -r requirements.txt
 
             - name : Run API ETL script
+              env:
+                API_TOKEN: ${{secrets.API_Token}}
               run: python api_reader.py
