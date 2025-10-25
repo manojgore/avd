@@ -5,7 +5,7 @@ import os
 token = os.getenv("API_TOKEN")
 print(f'Token : {token}')
 
-if token=="1234ABCD":
+if token=="1234ABC":
     print("get the token")
 else:
     print("incorrect token")
